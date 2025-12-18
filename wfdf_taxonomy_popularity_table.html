@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>WFDF Sport for All — Flying Disc Activities Taxonomy + Popularity</title>
+<style>
+  :root{
+    --wfdf-blue:#003A8F;
+    --wfdf-orange:#F28C28;
+    --ink:#1f2937;
+    --muted:#6b7280;
+    --bg:#ffffff;
+    --card:#f8fafc;
+    --line:#e5e7eb;
+  }
+  body{
+    margin:0; padding:24px;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+    color:var(--ink);
+    background:var(--bg);
+  }
+  header{
+    max-width:1100px; margin:0 auto 14px auto;
+    border-bottom:4px solid var(--wfdf-blue);
+    padding-bottom:14px;
+  }
+  h1{margin:0 0 6px 0; font-size:24px; color:var(--wfdf-blue); letter-spacing:.2px;}
+  .sub{margin:0; color:var(--muted); font-size:14px; line-height:1.35;}
+  .pill{
+    display:inline-block; padding:4px 10px; border-radius:999px;
+    background:rgba(242,140,40,.12); color:var(--wfdf-orange);
+    font-weight:600; font-size:12px; margin-top:10px;
+  }
+  .wrap{max-width:1100px; margin:0 auto;}
+  .legend{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:12px 14px;
+    margin:16px 0;
+  }
+  .legend b{color:var(--wfdf-blue);}
+  .legend .row{display:flex; flex-wrap:wrap; gap:10px 18px; margin-top:6px; color:var(--ink);}
+  .legend .item{white-space:nowrap; font-size:14px;}
+  table{
+    width:100%;
+    border-collapse:separate;
+    border-spacing:0;
+    border:1px solid var(--line);
+    border-radius:16px;
+    overflow:hidden;
+    background:white;
+  }
+  thead th{
+    text-align:left;
+    font-size:12px;
+    letter-spacing:.5px;
+    text-transform:uppercase;
+    color:white;
+    background:var(--wfdf-blue);
+    padding:12px 12px;
+  }
+  tbody td{
+    padding:10px 12px;
+    border-top:1px solid var(--line);
+    vertical-align:top;
+    font-size:14px;
+  }
+  tbody tr:hover td{background:#fbfdff;}
+  .cat{
+    font-weight:700;
+    color:var(--wfdf-blue);
+    width:220px;
+  }
+  .activity{font-weight:600;}
+  .status{
+    font-size:13px;
+    color:var(--muted);
+    white-space:nowrap;
+  }
+  .icons{white-space:nowrap; font-size:16px;}
+  .notes{
+    margin-top:14px;
+    color:var(--muted);
+    font-size:13px;
+    line-height:1.45;
+  }
+  .footer{
+    margin-top:14px;
+    padding-top:12px;
+    border-top:1px solid var(--line);
+    color:var(--muted);
+    font-size:12px;
+  }
+  a{color:var(--wfdf-blue); text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .small{font-size:12px; color:var(--muted);}
+</style>
+</head>
+<body>
+  <header class="wrap">
+    <h1>Flying Disc Activities — Taxonomy + Popularity</h1>
+    <p class="sub">
+      TGfU-aligned activity families for Sport for All discussion. This page is a shareable, single-table view.
+      Popularity icons are <b>illustrative placeholders</b> until you replace them with measured metrics (e.g., membership counts, national federations, event counts, Google Trends indices).
+    </p>
+    <div class="pill">WFDF Sport for All Committee</div>
+    <div class="small" style="margin-top:8px;">
+      Committee page: <a href="https://wfdf.sport/disciplines/sport-for-all/" target="_blank" rel="noopener">wfdf.sport/disciplines/sport-for-all/</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="legend">
+      <b>Legend</b>
+      <div class="row">
+        <span class="item">Reach: 🌍 Global · 🌎 Multi‑regional · 🌐 Regional · 📍 Localized</span>
+        <span class="item">Demand: 🔵 Very High · 🟢 High · 🟡 Moderate · 🟠 Low · 🔴 Niche</span>
+        <span class="item">Access: ⭐ (1) … ⭐⭐⭐⭐⭐ (5)</span>
+      </div>
+    </section>
+
+    <table aria-label="Taxonomy and popularity table">
+      <thead>
+        <tr>
+          <th style="width:240px;">Activity family</th>
+          <th>Activity</th>
+          <th style="width:220px;">WFDF status</th>
+          <th style="width:170px;">Popularity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Zone / Invasion -->
+        <tr>
+          <td class="cat" rowspan="5">Zone / Invasion Games</td>
+          <td><span class="activity">Ultimate</span></td>
+          <td class="status">World Championship Sport</td>
+          <td class="icons">🌍 🔵 ⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Beach Ultimate</span></td>
+          <td class="status">World Championship Sport</td>
+          <td class="icons">🌍 🟢 ⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Goaltimate</span></td>
+          <td class="status">Recognized Game</td>
+          <td class="icons">🌎 🟡 ⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Hot Box</span></td>
+          <td class="status">Recognized Game</td>
+          <td class="icons">🌐 🟠 ⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">World War Free</span></td>
+          <td class="status">Recognized Game</td>
+          <td class="icons">📍 🔴 ⭐⭐⭐</td>
+        </tr>
+
+        <!-- Court / Net / Reactive -->
+        <tr>
+          <td class="cat" rowspan="5">Court / Net / Reactive Games</td>
+          <td><span class="activity">Double Disc Court (DDC)</span></td>
+          <td class="status">Disc Discipline</td>
+          <td class="icons">🌐 🟠 ⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Guts</span></td>
+          <td class="status">World Championship Sport</td>
+          <td class="icons">🌎 🟡 ⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Flutter Guts</span></td>
+          <td class="status">Recognized Game</td>
+          <td class="icons">📍 🔴 ⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">DodgeDisc</span></td>
+          <td class="status">Recognized Game</td>
+          <td class="icons">🌐 🟠 ⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Battle Royale</span></td>
+          <td class="status">Recognized Game</td>
+          <td class="icons">📍 🔴 ⭐⭐⭐⭐</td>
+        </tr>
+
+        <!-- Target Games -->
+        <tr>
+          <td class="cat" rowspan="5">Target Games</td>
+          <td><span class="activity">Discflect / KanJam</span></td>
+          <td class="status">Recognized Game</td>
+          <td class="icons">🌍 🔵 ⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Frisbee Hoops</span></td>
+          <td class="status">Recognized Game</td>
+          <td class="icons">🌐 🟠 ⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Polish Horseshoes / BeersBee</span></td>
+          <td class="status">Recognized Game</td>
+          <td class="icons">🌎 🟢 ⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Frisbee H‑O‑R‑S‑E</span></td>
+          <td class="status">Recognized Game</td>
+          <td class="icons">🌍 🟢 ⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Accuracy</span></td>
+          <td class="status">Disc Discipline</td>
+          <td class="icons">🌎 🟡 ⭐⭐⭐</td>
+        </tr>
+
+        <!-- Golf-Style -->
+        <tr>
+          <td class="cat" rowspan="2">Golf‑Style Games</td>
+          <td><span class="activity">Disc Golf</span></td>
+          <td class="status">World Championship Sport</td>
+          <td class="icons">🌍 🔵 ⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Speed Lid Golf</span></td>
+          <td class="status">Recognized Game</td>
+          <td class="icons">🌐 🟠 ⭐⭐⭐</td>
+        </tr>
+
+        <!-- Field & Track -->
+        <tr>
+          <td class="cat" rowspan="3">Field &amp; Track Events</td>
+          <td><span class="activity">Distance</span></td>
+          <td class="status">Disc Discipline</td>
+          <td class="icons">🌎 🟡 ⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Self‑Caught Flight (MTA, TRC)</span></td>
+          <td class="status">Disc Discipline</td>
+          <td class="icons">🌐 🟠 ⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Discathon</span></td>
+          <td class="status">Disc Discipline</td>
+          <td class="icons">🌐 🟠 ⭐⭐</td>
+        </tr>
+
+        <!-- Artistic -->
+        <tr>
+          <td class="cat" rowspan="2">Artistic / Choreographic Performance</td>
+          <td><span class="activity">Freestyle</span></td>
+          <td class="status">World Championship Sport</td>
+          <td class="icons">🌎 🟡 ⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td><span class="activity">Canine Disc (Disc Dog)</span></td>
+          <td class="status">Recognized Game</td>
+          <td class="icons">🌍 🟢 ⭐⭐⭐⭐</td>
+        </tr>
+
+        <!-- Hybrid -->
+        <tr>
+          <td class="cat">Hybrid / Multi‑Event Competitions</td>
+          <td><span class="activity">Overall</span></td>
+          <td class="status">World Championship Sport</td>
+          <td class="icons">🌐 🔴 ⭐</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="notes">
+      <b>How to make the popularity icons “real”:</b>
+      Replace the placeholders with a transparent, reproducible metric such as:
+      (1) number of countries with active national organizations or regular tournaments,
+      (2) annual sanctioned event counts,
+      (3) Google Trends relative interest (topic-level if available),
+      (4) social footprint (e.g., federation member counts, registered players).
+      <br><br>
+      If you want, I can convert this into a version that reads a CSV and regenerates the table automatically.
+    </div>
+
+    <div class="footer">
+      Generated for committee discussion. Colors approximate WFDF branding. Edit freely.
+    </div>
+  </main>
+</body>
+</html>
